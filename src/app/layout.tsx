@@ -1,3 +1,5 @@
+import Footer from './api/components/Footer'
+import Header from './api/components/Header'
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+        </body>
     </html>
   )
 }
