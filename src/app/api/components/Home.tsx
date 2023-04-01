@@ -16,18 +16,18 @@ MORE INFO</p>
         </div> */}
 
 
-<div className=" bg-[url(/header_image.webp)] bg-cover bg-fixed text-center md:px-44 px-3 md:py-40 py-28 rounded-b-[30%]">
-        <h1 className=' text-black md:text-6xl text-3xl font-extrabold'>Prepare yourself for the Next Generation of Internet with Panaverse</h1>
-        <p className=' md:text-xl text-md mt-4 md:px-[80px]'>One Year Panaverse DAO Earn as you Learn Program. Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, and Ambient Computing/IoT Technologies</p>
+<div className=" bg-[url(/header5.avif)] bg-cover bg-fixed text-center md:px-44 px-3 md:py-40 py-28 rounded-b-[30%]">
+        <h1 className=' text-white  md:text-6xl text-3xl font-extrabold'>Prepare yourself for the Next Generation of Internet with Panaverse</h1>
+        <p className='text-white md:text-xl text-md mt-4 md:px-[80px]'>One Year Panaverse DAO Earn as you Learn Program. Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, and Ambient Computing/IoT Technologies</p>
         <button className=' bg-blue-700 px-5 py-3 rounded-lg text-white font-semibold mt-4'>More Info</button>
       </div>
 
 
 
-      <div className='flex shadow-2xl w-[70%] justify-around md:py-[80px] py-[40px] space-y-12 items-center m-auto -mt-[80px] bg-white rounded-3xl md:flex-row flex-col'>
-        <Image src={'/logo1.png'} alt='' width={150} height={150} />
-        <Image src={'/P_logo.jpg'} alt='' width={150} height={150} />
-        <Image src={'/SaylaniLogo.webp'} alt='' width={150} height={150} />
+      <div className='flex shadow-2xl w-[70%] justify-around md:py-[80px] py-[40px] items-center m-auto -mt-[80px] bg-white rounded-3xl md:flex-row flex-col'>
+        <Image src={'/logo1.png'} alt='' width={200} height={200} />
+        <Image src={'/P_logo.jpg'} alt='' width={200} height={200}  />
+        <Image src={'/SaylaniLogo.webp'} alt='' width={200} height={200}  />
       </div>
 
         {/* <div className='w-[80%] flex m-auto mt-10'>
@@ -41,11 +41,11 @@ MORE INFO</p>
         </div> */}
        
 
-       <div className='w-[80%] flex m-auto mt-10 md:flex-row flex-col'>
-        <div className=' md:w-1/2'>
+       <div className='w-[80%] flex m-auto mt-10 md:flex-row flex-col '>
+        <div className=' md:w-1/2 pl-[50px] md:pl-[0]'>
           <Image src='/b_image.png' alt='' width={400} height={400} />
         </div>
-        <div className=' md:w-1/2 pt-10'>
+        <div className=' md:w-1/2 pt-10 '>
           <h1 className=' text-black md:text-5xl text-3xl font-bold border-l-[6px] border-l-blue-700 pl-3'>Program Of Studies</h1>
           <p className=' md:text-md text-base mt-4 text-justify'>This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.</p>
           <button className=' bg-blue-700 px-5 md:py-3 py-2 rounded-lg text-white font-semibold mt-4'>Read More</button>
